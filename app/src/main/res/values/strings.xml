@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo_Customer_view</string>
+
+    <string name="text_sesame_level_jiaocha">较差</string>
+    <string name="text_sesame_level_zhongdeng">中等</string>
+    <string name="text_sesame_level_lianghao">良好</string>
+    <string name="text_sesame_level_youxiu">优秀</string>
+    <string name="text_sesame_level_jihao">极好</string>
+
+</resources>
