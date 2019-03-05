@@ -15,5 +15,12 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"/>
-
+    <Button
+        android:id="@+id/grid_view_btn"
+        android:text="GridViewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
 </LinearLayout>

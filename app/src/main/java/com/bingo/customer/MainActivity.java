@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button userLevelBtn;
+    Button gridViewBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +16,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         userLevelBtn=findViewById(R.id.user_level_btn);
+        gridViewBtn=findViewById(R.id.grid_view_btn);
         userLevelBtn.setOnClickListener(this);
+        gridViewBtn.setOnClickListener(this);
 
     }
 
@@ -25,6 +28,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.user_level_btn:
                 Intent intent =new Intent(MainActivity.this,UserLevelActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.grid_view_btn:
+                Intent gridViewIntent =new Intent(MainActivity.this,GridViewActivity.class);
+                startActivity(gridViewIntent);
                 break;
                 default:
                     break;
